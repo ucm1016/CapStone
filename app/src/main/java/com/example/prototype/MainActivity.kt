@@ -43,11 +43,6 @@ class MainActivity : AppCompatActivity() {
         val formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd-HH:mm:ss")
         val formatted = current.format(formatter)
 
-        //가로형 달력
-        Calendar.setOnClickListener {
-            val intent = Intent(this , rowActivity::class.java)
-            startActivity(intent)
-        }
 
 
 
