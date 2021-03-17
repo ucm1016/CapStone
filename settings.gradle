@@ -1,2 +1,3 @@
 rootProject.name='prototype'
 include ':app'
+hello world
